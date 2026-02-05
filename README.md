@@ -47,5 +47,5 @@ ros2 launch go2_bringup go2_slam.launch.py              # 建图
 
 ![alt text](images/f8af8ef602d995534760e8bf3b8003df.gif)
 
-# 5. 更为完整的教程
+# 6. 更为完整的教程
 [Unitree Go2实机部署](https://my.feishu.cn/docx/RsFVdrUeFojrbsxA7AEcTKKenMg)中可获取到更多教程。
