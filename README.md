@@ -30,11 +30,22 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard    # cmd_vel控制运动
 ros2 launch go2_bringup go2_navigation.launch.py        # 导航
 ros2 launch go2_bringup go2_slam.launch.py              # 建图
 ```
+# 5. 项目效果
+基础效果
+
 ![alt text](images/1429936741.gif)
+
+键盘控制效果
 
 ![alt text](images/18446744073331480211.gif)
 
+建图效果
+
 ![alt text](images/18446744071947251922.gif)
+
+导航效果
+
+![alt text](images/f8af8ef602d995534760e8bf3b8003df.gif)
 
 # 5. 更为完整的教程
 [Unitree Go2实机部署](https://my.feishu.cn/docx/RsFVdrUeFojrbsxA7AEcTKKenMg)中可获取到更多教程。
