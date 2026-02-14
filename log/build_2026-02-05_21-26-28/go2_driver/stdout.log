@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/go2_driver/go2_driver.egg-info
+writing ../../build/go2_driver/go2_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_driver/go2_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_driver/go2_driver.egg-info/entry_points.txt
+writing requirements to ../../build/go2_driver/go2_driver.egg-info/requires.txt
+writing top-level names to ../../build/go2_driver/go2_driver.egg-info/top_level.txt
+writing manifest file '../../build/go2_driver/go2_driver.egg-info/SOURCES.txt'
+reading manifest file '../../build/go2_driver/go2_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_driver/go2_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huahua/project/Go2/Go2_ws/build/go2_driver/build
+creating /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib
+creating /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+copying go2_driver/go2_joint_pub.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+copying go2_driver/go2_odom_imu.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+copying go2_driver/go2_controller.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+copying go2_driver/twist_bridge.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+copying go2_driver/__init__.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+running install
+running install_lib
+creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/go2_joint_pub.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/go2_odom_imu.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/go2_controller.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/twist_bridge.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/__init__.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/go2_joint_pub.py to go2_joint_pub.cpython-310.pyc
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/go2_odom_imu.py to go2_odom_imu.cpython-310.pyc
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/go2_controller.py to go2_controller.cpython-310.pyc
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/twist_bridge.py to twist_bridge.cpython-310.pyc
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index
+creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index/resource_index
+creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index/resource_index/packages
+copying resource/go2_driver -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/go2_driver
+creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/go2_driver/launch
+copying launch/go2_driver.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/go2_driver/launch
+running install_egg_info
+Copying ../../build/go2_driver/go2_driver.egg-info to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing go2_controller script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+Installing go2_joint_pub script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+Installing go2_odom_imu script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+Installing twist_bridge script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+writing list of installed files to '/home/huahua/project/Go2/Go2_ws/build/go2_driver/install.log'

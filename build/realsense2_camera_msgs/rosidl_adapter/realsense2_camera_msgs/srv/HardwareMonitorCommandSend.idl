@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from realsense2_camera_msgs/srv/HardwareMonitorCommandSend.srv
+// generated code does not contain a copyright notice
+
+
+module realsense2_camera_msgs {
+  module srv {
+    struct HardwareMonitorCommandSend_Request {
+      uint32 opcode;
+
+      uint32 param1;
+
+      uint32 param2;
+
+      uint32 param3;
+
+      uint32 param4;
+
+      sequence<uint8> data;
+    };
+    struct HardwareMonitorCommandSend_Response {
+      boolean success;
+
+      sequence<uint8> result;
+
+      string error_message;
+    };
+  };
+};

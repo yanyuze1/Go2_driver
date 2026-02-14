@@ -1,0 +1,350 @@
+[0.008s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Go2/Go2_ws/src/FAST_LIO -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/huahua/project/Go2/Go2_ws/install/fast_lio
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.213s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.214s] [0mCurrent CPU archtecture: x86_64[0m
+[0.217s] [0mProcesser number:  20[0m
+[0.217s] [0mcore for MP: 3[0m
+[0.461s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.463s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.567s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.625s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.650s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.653s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.657s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.699s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.711s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.716s] -- Looking for pthread.h
+[0.768s] -- Looking for pthread.h - found
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.823s] -- Found Threads: TRUE  
+[0.853s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.869s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.876s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.886s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.896s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.901s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.912s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.937s] -- Checking for module 'eigen3'
+[0.947s] --   Found eigen3, version 3.4.0
+[0.971s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.971s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.994s] -- Checking for module 'flann'
+[1.004s] --   Found flann, version 1.9.1
+[1.035s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.035s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.714s] -- Checking for module 'libusb-1.0'
+[1.725s] --   Found libusb-1.0, version 1.0.25
+[1.750s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.751s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.793s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.903s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.909s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.914s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.004s] -- Found Qhull version 8.0.2
+[2.102s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.201s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.202s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.202s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.203s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.203s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.204s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.204s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.204s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.205s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.206s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.206s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.206s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.207s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.208s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.208s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.209s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.210s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.210s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.211s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.211s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.212s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.212s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.212s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.213s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.213s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.229s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.229s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.230s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.268s] -- Found livox_ros_driver2: 1.0.0 (/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.280s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.285s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[2.285s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.286s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.286s]   command to set the policy and suppress this warning.
+[2.286s] 
+[2.286s]   CMake variable PCL_ROOT is set to:
+[2.286s] 
+[2.286s]     /usr
+[2.286s] 
+[2.286s]   For compatibility, CMake is ignoring the variable.
+[2.286s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.286s] [0m
+[2.290s] -- PCL: /usr/include/pcl-1.12
+[2.290s] [0mEigen:/usr/include/eigen3[0m
+[2.451s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.025s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.028s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.055s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.055s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.055s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.082s] -- Found PythonExtra: .so  
+[3.204s] -- Configuring done
+[3.312s] -- Generating done
+[3.318s] [33mCMake Warning:
+[3.318s]   Manually-specified variables were not used by the project:
+[3.318s] 
+[3.318s]     HUMBLE_ROS
+[3.318s]     ROS_EDITION
+[3.318s] 
+[3.319s] [0m
+[3.336s] -- Build files have been written to: /home/huahua/project/Go2/Go2_ws/build/fast_lio
+[3.365s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Go2/Go2_ws/src/FAST_LIO -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/huahua/project/Go2/Go2_ws/install/fast_lio
+[3.369s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huahua/project/Go2/Go2_ws/build/fast_lio -- -j20 -l20
+[3.464s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.484s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.510s] [  5%] Built target ament_cmake_python_copy_fast_lio
+[3.999s] [  5%] Built target fast_lio__cpp
+[4.024s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.025s] [ 11%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[4.029s] running egg_info
+[4.029s] creating fast_lio.egg-info
+[4.031s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.033s] writing fast_lio.egg-info/PKG-INFO
+[4.033s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[4.034s] writing top-level names to fast_lio.egg-info/top_level.txt
+[4.034s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[4.037s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[4.037s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[4.037s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.125s] [ 17%] Built target ament_cmake_python_build_fast_lio_egg
+[4.176s] [ 20%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[4.243s] [ 20%] Built target fast_lio__rosidl_generator_c
+[4.263s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.263s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.267s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.448s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[4.665s] [ 34%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[4.680s] [ 37%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[4.720s] [ 40%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[4.737s] [ 42%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[4.751s] [ 45%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[4.823s] [ 45%] Built target fast_lio__rosidl_typesupport_c
+[4.899s] [ 48%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[4.947s] [ 51%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.969s] [ 51%] Built target fast_lio__rosidl_typesupport_introspection_c
+[4.982s] [ 54%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[5.014s] [ 57%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[5.058s] [ 57%] Built target fast_lio__rosidl_typesupport_cpp
+[5.085s] [ 57%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[5.098s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[5.098s] [ 62%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[5.100s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[5.180s] [ 68%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[5.268s] [ 68%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[5.688s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[5.882s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[5.927s] [ 71%] Built target fast_lio
+[5.977s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.588s] [ 74%] Built target fast_lio__py
+[6.637s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[6.865s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[6.963s] [ 80%] Built target fast_lio__rosidl_generator_py
+[6.988s] [ 82%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[7.007s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.016s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.140s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.169s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.211s] [ 94%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[7.211s] [ 94%] Built target fast_lio__rosidl_typesupport_c__pyext
+[7.228s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.302s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[13.421s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[13.421s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[13.422s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[13.422s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[13.422s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[13.422s]                  from [01m[K/home/huahua/project/Go2/Go2_ws/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[13.422s]                  from [01m[K/home/huahua/project/Go2/Go2_ws/src/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[13.422s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[13.422s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[13.422s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[49.540s] [100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[50.165s] [100%] Built target fastlio_mapping
+[50.173s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huahua/project/Go2/Go2_ws/build/fast_lio -- -j20 -l20
+[50.174s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huahua/project/Go2/Go2_ws/build/fast_lio
+[50.181s] -- Install configuration: "Release"
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[50.181s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[50.182s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[50.182s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[50.182s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[50.182s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[50.183s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[50.183s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio
+[50.183s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[50.183s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[50.183s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[50.183s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[50.183s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio
+[50.183s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[50.183s] -- Up-to-date: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[50.183s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[50.183s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[50.183s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[50.184s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[50.209s] Listing '/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[50.209s] Compiling '/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...
+[50.210s] Listing '/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[50.210s] Compiling '/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...
+[50.210s] Compiling '/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...
+[50.212s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[50.212s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[50.212s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[50.212s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[50.213s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[50.213s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[50.213s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[50.213s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[50.213s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[50.213s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[50.213s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[50.214s] -- Set runtime path of "/home/huahua/project/Go2/Go2_ws/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/config
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/launch
+[50.214s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/rviz
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/package.dsv
+[50.215s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.216s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[50.217s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[50.217s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[50.217s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/fast_lio/share/fast_lio/package.xml
+[50.218s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api:/opt/ros/humble LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huahua/project/Go2/Go2_ws/build/fast_lio

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from realsense2_camera_msgs/srv/SafetyInterfaceConfigRead.srv
+// generated code does not contain a copyright notice
+
+
+module realsense2_camera_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "calib_location = " "\n"
+      "  0 = RS2_CALIB_LOCATION_EEPROM" "\n"
+      "  1 = RS2_CALIB_LOCATION_FLASH" "\n"
+      "  2 = RS2_CALIB_LOCATION_RAM (default)")
+    struct SafetyInterfaceConfigRead_Request {
+      @default (value=2)
+      uint8 calib_location;
+    };
+    struct SafetyInterfaceConfigRead_Response {
+      boolean success;
+
+      string error_message;
+
+      string safety_interface_config;
+    };
+  };
+};

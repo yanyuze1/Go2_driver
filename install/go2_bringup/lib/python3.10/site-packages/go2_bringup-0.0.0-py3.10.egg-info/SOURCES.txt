@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/go2_bringup/go2_bringup.egg-info/PKG-INFO
+../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt
+../../build/go2_bringup/go2_bringup.egg-info/dependency_links.txt
+../../build/go2_bringup/go2_bringup.egg-info/entry_points.txt
+../../build/go2_bringup/go2_bringup.egg-info/requires.txt
+../../build/go2_bringup/go2_bringup.egg-info/top_level.txt
+../../build/go2_bringup/go2_bringup.egg-info/zip-safe
+go2_bringup/__init__.py
+launch/go2_base.launch.py
+launch/go2_navigation.launch.py
+launch/go2_slam.launch.py
+resource/go2_bringup

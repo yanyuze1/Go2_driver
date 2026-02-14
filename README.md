@@ -1,3 +1,4 @@
+[English Version/英文版](README_EN.md)
 # 1. 项目描述
 本项目为宇树机器狗系列第一章ROS2-Gazebo仿真的基础项目仓库，该仓库会随着系列项目的推进不定时进行更新，当前计划可查看本人飞书查看项目情况[项目飞书](https://my.feishu.cn/docx/RsFVdrUeFojrbsxA7AEcTKKenMg)，这个项目预计将会是一个超长期项目。
 

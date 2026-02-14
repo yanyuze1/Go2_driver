@@ -1,0 +1,51 @@
+[0.858s] Invoking command in '/home/huahua/project/Go2/Go2_ws/src/go2_driver': PYTHONPATH=/home/huahua/project/Go2/Go2_ws/build/go2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_driver build --build-base /home/huahua/project/Go2/Go2_ws/build/go2_driver/build install --record /home/huahua/project/Go2/Go2_ws/build/go2_driver/install.log --single-version-externally-managed install_data
+[0.991s] running egg_info
+[0.991s] creating ../../build/go2_driver/go2_driver.egg-info
+[0.992s] writing ../../build/go2_driver/go2_driver.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/go2_driver/go2_driver.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../../build/go2_driver/go2_driver.egg-info/entry_points.txt
+[0.992s] writing requirements to ../../build/go2_driver/go2_driver.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/go2_driver/go2_driver.egg-info/top_level.txt
+[0.992s] writing manifest file '../../build/go2_driver/go2_driver.egg-info/SOURCES.txt'
+[0.993s] reading manifest file '../../build/go2_driver/go2_driver.egg-info/SOURCES.txt'
+[0.993s] writing manifest file '../../build/go2_driver/go2_driver.egg-info/SOURCES.txt'
+[0.993s] running build
+[0.993s] running build_py
+[0.993s] creating /home/huahua/project/Go2/Go2_ws/build/go2_driver/build
+[0.993s] creating /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib
+[0.993s] creating /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+[0.993s] copying go2_driver/go2_joint_pub.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+[0.993s] copying go2_driver/go2_odom_imu.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+[0.994s] copying go2_driver/go2_controller.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+[0.994s] copying go2_driver/twist_bridge.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+[0.994s] copying go2_driver/__init__.py -> /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver
+[0.994s] running install
+[0.994s] running install_lib
+[0.994s] creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+[0.994s] copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/go2_joint_pub.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+[0.994s] copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/go2_odom_imu.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+[0.994s] copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/go2_controller.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+[0.994s] copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/twist_bridge.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+[0.994s] copying /home/huahua/project/Go2/Go2_ws/build/go2_driver/build/lib/go2_driver/__init__.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver
+[0.994s] byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/go2_joint_pub.py to go2_joint_pub.cpython-310.pyc
+[0.995s] byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/go2_odom_imu.py to go2_odom_imu.cpython-310.pyc
+[0.995s] byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/go2_controller.py to go2_controller.cpython-310.pyc
+[0.995s] byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/twist_bridge.py to twist_bridge.cpython-310.pyc
+[0.996s] byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver/__init__.py to __init__.cpython-310.pyc
+[0.996s] running install_data
+[0.996s] creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index
+[0.996s] creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index/resource_index
+[0.996s] creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index/resource_index/packages
+[0.996s] copying resource/go2_driver -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/ament_index/resource_index/packages
+[0.996s] copying package.xml -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/go2_driver
+[0.996s] creating /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/go2_driver/launch
+[0.996s] copying launch/go2_driver.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_driver/share/go2_driver/launch
+[0.996s] running install_egg_info
+[0.997s] Copying ../../build/go2_driver/go2_driver.egg-info to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages/go2_driver-0.0.0-py3.10.egg-info
+[0.997s] running install_scripts
+[1.009s] Installing go2_controller script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+[1.009s] Installing go2_joint_pub script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+[1.009s] Installing go2_odom_imu script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+[1.009s] Installing twist_bridge script to /home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/go2_driver
+[1.009s] writing list of installed files to '/home/huahua/project/Go2/Go2_ws/build/go2_driver/install.log'
+[1.022s] Invoked command in '/home/huahua/project/Go2/Go2_ws/src/go2_driver' returned '0': PYTHONPATH=/home/huahua/project/Go2/Go2_ws/build/go2_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_driver build --build-base /home/huahua/project/Go2/Go2_ws/build/go2_driver/build install --record /home/huahua/project/Go2/Go2_ws/build/go2_driver/install.log --single-version-externally-managed install_data

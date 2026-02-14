@@ -1,0 +1,15 @@
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyPresetRead.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyPresetWrite.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyInterfaceConfigRead.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/SafetyInterfaceConfigWrite.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/CalibConfigRead.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/CalibConfigWrite.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/ApplicationConfigRead.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/ApplicationConfigWrite.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/HardwareMonitorCommandSend.idl
+/home/huahua/project/Go2/Go2_ws/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:action/TriggeredCalibration.idl

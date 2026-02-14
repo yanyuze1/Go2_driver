@@ -1,0 +1,37 @@
+[0.378s] Invoking command in '/home/huahua/project/Go2/Go2_ws/src/go2_bringup': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge:/home/huahua/project/Go2/Go2_ws/install/navigation2:/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/Go2_ws/install/cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge:/home/huahua/project/Go2/Go2_ws/install/navigation2:/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/Go2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/build/go2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages:/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_bringup build --build-base /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build install --record /home/huahua/project/Go2/Go2_ws/build/go2_bringup/install.log --single-version-externally-managed install_data
+[0.515s] running egg_info
+[0.515s] creating ../../build/go2_bringup/go2_bringup.egg-info
+[0.515s] writing ../../build/go2_bringup/go2_bringup.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/go2_bringup/go2_bringup.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/go2_bringup/go2_bringup.egg-info/entry_points.txt
+[0.516s] writing requirements to ../../build/go2_bringup/go2_bringup.egg-info/requires.txt
+[0.516s] writing top-level names to ../../build/go2_bringup/go2_bringup.egg-info/top_level.txt
+[0.516s] writing manifest file '../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt'
+[0.516s] reading manifest file '../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] creating /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build
+[0.517s] creating /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib
+[0.517s] creating /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib/go2_bringup
+[0.517s] copying go2_bringup/__init__.py -> /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib/go2_bringup
+[0.517s] running install
+[0.517s] running install_lib
+[0.517s] creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup
+[0.518s] copying /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib/go2_bringup/__init__.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup
+[0.518s] byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup/__init__.py to __init__.cpython-310.pyc
+[0.518s] running install_data
+[0.518s] creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index
+[0.518s] creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index/resource_index
+[0.518s] creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index/resource_index/packages
+[0.518s] copying resource/go2_bringup -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index/resource_index/packages
+[0.518s] copying package.xml -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup
+[0.518s] creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+[0.518s] copying launch/go2_slam.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+[0.518s] copying launch/go2_base.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+[0.519s] copying launch/go2_navigation.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+[0.519s] running install_egg_info
+[0.520s] Copying ../../build/go2_bringup/go2_bringup.egg-info to /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup-0.0.0-py3.10.egg-info
+[0.520s] running install_scripts
+[0.532s] writing list of installed files to '/home/huahua/project/Go2/Go2_ws/build/go2_bringup/install.log'
+[0.548s] Invoked command in '/home/huahua/project/Go2/Go2_ws/src/go2_bringup' returned '0': AMENT_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge:/home/huahua/project/Go2/Go2_ws/install/navigation2:/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/Go2_ws/install/cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge:/home/huahua/project/Go2/Go2_ws/install/navigation2:/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2:/home/huahua/project/Go2/Go2_ws/install/cartographer:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huahua/project/Go2/Go2_ws/build/go2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages:/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_bringup build --build-base /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build install --record /home/huahua/project/Go2/Go2_ws/build/go2_bringup/install.log --single-version-externally-managed install_data

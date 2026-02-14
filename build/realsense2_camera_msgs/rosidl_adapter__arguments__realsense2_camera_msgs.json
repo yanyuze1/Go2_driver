@@ -1,0 +1,20 @@
+{
+  "package_name": "realsense2_camera_msgs",
+  "non_idl_tuples": [
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:msg/RGBD.msg",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/SafetyPresetRead.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/SafetyPresetWrite.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/SafetyInterfaceConfigRead.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/SafetyInterfaceConfigWrite.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/CalibConfigRead.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/CalibConfigWrite.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/ApplicationConfigRead.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/ApplicationConfigWrite.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:srv/HardwareMonitorCommandSend.srv",
+    "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs:action/TriggeredCalibration.action"
+  ]
+}

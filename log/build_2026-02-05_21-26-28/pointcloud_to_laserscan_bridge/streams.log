@@ -1,0 +1,70 @@
+[0.020s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge
+[0.373s] -- The C compiler identification is GNU 11.4.0
+[0.374s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.374s] -- Detecting CXX compiler ABI info
+[0.374s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.374s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.394s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.486s] -- Looking for pthread.h
+[0.539s] -- Looking for pthread.h - found
+[0.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.594s] -- Found Threads: TRUE  
+[0.623s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.643s] -- Found pointcloud_to_laserscan: 2.0.1 (/opt/ros/humble/share/pointcloud_to_laserscan/cmake)
+[0.644s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.702s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.749s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.749s] -- Added test 'lint_cmake' to check CMake code style
+[0.750s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.750s] -- Added test 'xmllint' to check XML markup files
+[0.751s] -- Configuring done
+[0.753s] -- Generating done
+[0.754s] [33mCMake Warning:
+[0.754s]   Manually-specified variables were not used by the project:
+[0.754s] 
+[0.754s]     HUMBLE_ROS
+[0.754s]     ROS_EDITION
+[0.754s] 
+[0.754s] [0m
+[0.754s] -- Build files have been written to: /home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge
+[0.760s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge
+[0.762s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge -- -j20 -l20
+[0.789s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge -- -j20 -l20
+[0.790s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge
+[0.794s] -- Install configuration: ""
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/launch
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/launch/pointcloud_to_laserscan.launch.py
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan_bridge
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan_bridge
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/environment/ament_prefix_path.sh
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/environment/ament_prefix_path.dsv
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/environment/path.sh
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/environment/path.dsv
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/local_setup.bash
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/local_setup.sh
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/local_setup.zsh
+[0.795s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/local_setup.dsv
+[0.796s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/package.dsv
+[0.796s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/ament_index/resource_index/packages/pointcloud_to_laserscan_bridge
+[0.796s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/cmake/pointcloud_to_laserscan_bridgeConfig.cmake
+[0.796s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/cmake/pointcloud_to_laserscan_bridgeConfig-version.cmake
+[0.796s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/pointcloud_to_laserscan_bridge/share/pointcloud_to_laserscan_bridge/package.xml
+[0.797s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/Go2/Go2_ws/build/pointcloud_to_laserscan_bridge

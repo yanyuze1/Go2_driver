@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/huahua/project/Go2/Go2_ws/install/realsense2_camera/include/**",
+        "/home/huahua/project/Go2/Go2_ws/install/realsense2_camera_msgs/include/**",
+        "/home/huahua/project/Go2/Go2_ws/install/fast_lio/include/**",
+        "/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/include/**",
+        "/home/huahua/project/unitree_study_ws/install/small_gicp_localization/include/**",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/include/**",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go/include/**",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/FAST_LIO/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/cartographer/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/navigation2/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/odom_tf/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

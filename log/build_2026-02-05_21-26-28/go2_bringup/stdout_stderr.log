@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/go2_bringup/go2_bringup.egg-info
+writing ../../build/go2_bringup/go2_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_bringup/go2_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_bringup/go2_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/go2_bringup/go2_bringup.egg-info/requires.txt
+writing top-level names to ../../build/go2_bringup/go2_bringup.egg-info/top_level.txt
+writing manifest file '../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_bringup/go2_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build
+creating /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib
+creating /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib/go2_bringup
+copying go2_bringup/__init__.py -> /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib/go2_bringup
+running install
+running install_lib
+creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup
+copying /home/huahua/project/Go2/Go2_ws/build/go2_bringup/build/lib/go2_bringup/__init__.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index
+creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index/resource_index
+creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index/resource_index/packages
+copying resource/go2_bringup -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup
+creating /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+copying launch/go2_slam.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+copying launch/go2_base.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+copying launch/go2_navigation.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_bringup/share/go2_bringup/launch
+running install_egg_info
+Copying ../../build/go2_bringup/go2_bringup.egg-info to /home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages/go2_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/huahua/project/Go2/Go2_ws/build/go2_bringup/install.log'

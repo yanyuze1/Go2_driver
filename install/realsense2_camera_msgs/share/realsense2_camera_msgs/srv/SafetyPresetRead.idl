@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from realsense2_camera_msgs/srv/SafetyPresetRead.srv
+// generated code does not contain a copyright notice
+
+
+module realsense2_camera_msgs {
+  module srv {
+    struct SafetyPresetRead_Request {
+      uint8 index;
+    };
+    struct SafetyPresetRead_Response {
+      boolean success;
+
+      string error_message;
+
+      string safety_preset;
+    };
+  };
+};

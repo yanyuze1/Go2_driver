@@ -1,0 +1,8 @@
+source;share/pointcloud_to_laserscan_bridge/hook/cmake_prefix_path.ps1
+source;share/pointcloud_to_laserscan_bridge/hook/cmake_prefix_path.dsv
+source;share/pointcloud_to_laserscan_bridge/hook/cmake_prefix_path.sh
+source;share/pointcloud_to_laserscan_bridge/local_setup.bash
+source;share/pointcloud_to_laserscan_bridge/local_setup.dsv
+source;share/pointcloud_to_laserscan_bridge/local_setup.ps1
+source;share/pointcloud_to_laserscan_bridge/local_setup.sh
+source;share/pointcloud_to_laserscan_bridge/local_setup.zsh

@@ -1,0 +1,1 @@
+string safety_interface_config

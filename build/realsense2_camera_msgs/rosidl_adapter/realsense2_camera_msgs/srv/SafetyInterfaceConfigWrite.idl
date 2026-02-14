@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from realsense2_camera_msgs/srv/SafetyInterfaceConfigWrite.srv
+// generated code does not contain a copyright notice
+
+
+module realsense2_camera_msgs {
+  module srv {
+    struct SafetyInterfaceConfigWrite_Request {
+      string safety_interface_config;
+    };
+    struct SafetyInterfaceConfigWrite_Response {
+      boolean success;
+
+      string error_message;
+    };
+  };
+};

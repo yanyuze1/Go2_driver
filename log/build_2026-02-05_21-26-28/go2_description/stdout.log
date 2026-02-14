@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/go2_description/go2_description.egg-info
+writing ../../build/go2_description/go2_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_description/go2_description.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_description/go2_description.egg-info/entry_points.txt
+writing requirements to ../../build/go2_description/go2_description.egg-info/requires.txt
+writing top-level names to ../../build/go2_description/go2_description.egg-info/top_level.txt
+writing manifest file '../../build/go2_description/go2_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/go2_description/go2_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_description/go2_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huahua/project/Go2/Go2_ws/build/go2_description/build
+creating /home/huahua/project/Go2/Go2_ws/build/go2_description/build/lib
+creating /home/huahua/project/Go2/Go2_ws/build/go2_description/build/lib/go2_description
+copying go2_description/__init__.py -> /home/huahua/project/Go2/Go2_ws/build/go2_description/build/lib/go2_description
+running install
+running install_lib
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/lib/python3.10/site-packages/go2_description
+copying /home/huahua/project/Go2/Go2_ws/build/go2_description/build/lib/go2_description/__init__.py -> /home/huahua/project/Go2/Go2_ws/install/go2_description/lib/python3.10/site-packages/go2_description
+byte-compiling /home/huahua/project/Go2/Go2_ws/install/go2_description/lib/python3.10/site-packages/go2_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/ament_index
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/ament_index/resource_index
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/ament_index/resource_index/packages
+copying resource/go2_description -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/thigh.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/mid360.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/thigh_mirror.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/calf.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/foot.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/base.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/realsense.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/calf_mirror.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+copying dae/hip.dae -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/dae
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/urdf
+copying urdf/robot.urdf -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/urdf
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/launch
+copying launch/display.launch.py -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/launch
+creating /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/rviz
+copying rviz/display.rviz -> /home/huahua/project/Go2/Go2_ws/install/go2_description/share/go2_description/rviz
+running install_egg_info
+Copying ../../build/go2_description/go2_description.egg-info to /home/huahua/project/Go2/Go2_ws/install/go2_description/lib/python3.10/site-packages/go2_description-0.0.0-py3.10.egg-info
+running install_scripts
+Installing go2_description script to /home/huahua/project/Go2/Go2_ws/install/go2_description/lib/go2_description
+writing list of installed files to '/home/huahua/project/Go2/Go2_ws/build/go2_description/install.log'

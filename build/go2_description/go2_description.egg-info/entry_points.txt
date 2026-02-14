@@ -1,0 +1,3 @@
+[console_scripts]
+go2_description = go2_description.go2_description:main
+

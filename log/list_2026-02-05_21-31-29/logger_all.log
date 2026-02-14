@@ -1,0 +1,252 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/huahua/project/Go2/Go2_ws']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/huahua/project/Go2/Go2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77c6d15ac4f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x77c6d16a9090>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x77c6d16a9090>>)
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.216s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huahua/project/Go2/Go2_ws'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/build) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/build) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/images) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/install) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/install) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/log) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/log) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/FAST_LIO) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/cartographer) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/cartographer' with type 'ros.ament_cmake' and name 'cartographer'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_bringup) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/go2_bringup' with type 'ros.ament_python' and name 'go2_bringup'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_description) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/go2_description' with type 'ros.ament_python' and name 'go2_description'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/go2_driver) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/go2_driver' with type 'ros.ament_python' and name 'go2_driver'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/navigation2) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/navigation2' with type 'ros.ament_cmake' and name 'navigation2'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/odom_tf) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/odom_tf' with type 'ros.ament_cmake' and name 'odom_tf'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/point_lio_ros2' with type 'ros.ament_cmake' and name 'point_lio'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/pointcloud_to_laserscan_bridge' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan_bridge'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_rgbd_plugin' with type 'ros.ament_cmake' and name 'realsense2_rviz_plugin'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package '/home/huahua/project/Go2/Go2_ws/src/realsense-ros/realsense2_ros_mqtt_bridge' with type 'ros.ament_python' and name 'realsense2_ros_mqtt_bridge'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/res) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/huahua/project/Go2/Go2_ws/src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

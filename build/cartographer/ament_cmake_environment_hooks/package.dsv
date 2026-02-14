@@ -1,0 +1,4 @@
+source;share/cartographer/local_setup.bash
+source;share/cartographer/local_setup.dsv
+source;share/cartographer/local_setup.sh
+source;share/cartographer/local_setup.zsh

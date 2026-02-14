@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: realsense2-ros-mqtt-bridge
+Version: 4.57.4
+Summary: MQTT <-> ROS brdige for realsense2_camera node
+Home-page: UNKNOWN
+Maintainer: Samer Khshiboun
+Maintainer-email: samer.khshiboun@intel.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

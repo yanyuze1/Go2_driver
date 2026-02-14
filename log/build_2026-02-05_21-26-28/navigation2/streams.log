@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huahua/project/Go2/Go2_ws/src/navigation2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/huahua/project/Go2/Go2_ws/install/navigation2
+[0.374s] -- The C compiler identification is GNU 11.4.0
+[0.374s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Configuring done
+[0.413s] -- Generating done
+[0.413s] [33mCMake Warning:
+[0.413s]   Manually-specified variables were not used by the project:
+[0.413s] 
+[0.413s]     HUMBLE_ROS
+[0.413s]     ROS_EDITION
+[0.413s] 
+[0.413s] [0m
+[0.414s] -- Build files have been written to: /home/huahua/project/Go2/Go2_ws/build/navigation2
+[0.532s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huahua/project/Go2/Go2_ws/src/navigation2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/huahua/project/Go2/Go2_ws/install/navigation2
+[0.532s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/Go2/Go2_ws/build/navigation2 -- -j20 -l20
+[0.565s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huahua/project/Go2/Go2_ws/build/navigation2 -- -j20 -l20
+[0.566s] Invoking command in '/home/huahua/project/Go2/Go2_ws/build/navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/Go2/Go2_ws/build/navigation2
+[0.571s] -- Install configuration: ""
+[0.571s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/launch
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/launch/navigation2.launch.py
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/param
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/param/nav2.yaml
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/maps
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/maps/warehouse_map.pgm
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/maps/warehouse_map.yaml
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+[0.572s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/environment/path.sh
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/environment/path.dsv
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/local_setup.bash
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/local_setup.sh
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/local_setup.zsh
+[0.573s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/local_setup.dsv
+[0.574s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/package.dsv
+[0.574s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/ament_index/resource_index/packages/navigation2
+[0.574s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+[0.574s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+[0.574s] -- Installing: /home/huahua/project/Go2/Go2_ws/install/navigation2/share/navigation2/package.xml
+[0.576s] Invoked command in '/home/huahua/project/Go2/Go2_ws/build/navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huahua/project/Go2/Go2_ws/build/navigation2

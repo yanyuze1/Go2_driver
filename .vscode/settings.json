@@ -1,0 +1,37 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/huahua/project/Go2/Go2_ws/install/realsense2_ros_mqtt_bridge/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/go2_description/lib/python3.10/site-packages",
+        "/home/huahua/project/unitree_study_ws/install/go2_twist_bridge_py/lib/python3.10/site-packages",
+        "/home/huahua/project/unitree_study_ws/install/go2_teleop_ctrl_keyboard/lib/python3.10/site-packages",
+        "/home/huahua/project/unitree_study_ws/install/go2_description/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/huahua/project/Go2/Go2_ws/install/realsense2_ros_mqtt_bridge/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/go2_bringup/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/fast_lio/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/go2_driver/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/Go2_ws/install/go2_description/lib/python3.10/site-packages",
+        "/home/huahua/project/unitree_study_ws/install/go2_twist_bridge_py/lib/python3.10/site-packages",
+        "/home/huahua/project/unitree_study_ws/install/go2_teleop_ctrl_keyboard/lib/python3.10/site-packages",
+        "/home/huahua/project/unitree_study_ws/install/go2_description/lib/python3.10/site-packages",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/huahua/project/Go2/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ROS2.distro": "humble"
+}
